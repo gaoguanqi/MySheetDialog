@@ -97,6 +97,11 @@
        android:layout_height="wrap_content"
        android:text="锤子风格的Dialog"
        />
-
+   <Button
+       android:id="@+id/btnTestMumProgressDialog"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="菊花Dialog"
+       />
 </LinearLayout>
 </ScrollView>

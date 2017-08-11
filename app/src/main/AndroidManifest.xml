@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".PopuActivity" />
         <activity android:name=".ProgressBarActivity" />
-        <activity android:name=".SmartisanDialogActivity"></activity>
+        <activity android:name=".SmartisanDialogActivity" />
+        <activity android:name=".MumProgressDialogActivity"></activity>
     </application>
 
 </manifest>

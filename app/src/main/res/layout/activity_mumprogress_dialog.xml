@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.bskj.mysheetdialog.MumProgressDialogActivity">
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open"
+        />
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="close"
+        />
+
+    <Button
+        android:id="@+id/btnAviOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open"
+        />
+    <Button
+        android:id="@+id/btnAviClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="close"
+        />
+</LinearLayout>

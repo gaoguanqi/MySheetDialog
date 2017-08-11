@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.btnTest1, R.id.btnTest2, R.id.btnTest3, R.id.btnTest4, R.id.btnTest5, R.id.btnTest6, R.id.btnTestPopu,R.id.login_btn,R.id.btnTestProgressBar,R.id.btnTestSmartisanDialog})
+    @OnClick({R.id.btnTest1, R.id.btnTest2, R.id.btnTest3, R.id.btnTest4, R.id.btnTest5, R.id.btnTest6, R.id.btnTestPopu,R.id.login_btn,R.id.btnTestProgressBar,R.id.btnTestSmartisanDialog,R.id.btnTestMumProgressDialog})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnTest1:
@@ -254,6 +254,9 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.btnTestSmartisanDialog:
                 startActivity(new Intent(ctx, SmartisanDialogActivity.class));
+                break;
+            case R.id.btnTestMumProgressDialog:
+                startActivity(new Intent(ctx, MumProgressDialogActivity.class));
                 break;
         }
     }
