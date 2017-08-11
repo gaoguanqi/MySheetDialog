@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#aabbcc"
     android:orientation="vertical"
-    tools:context="com.bskj.mysheetdialog.MainActivity">
+   >
 
    <Button
        android:id="@+id/btnTest1"
@@ -79,4 +83,20 @@
            />
    </FrameLayout>
 
+
+   <Button
+       android:id="@+id/btnTestProgressBar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="自定义秒杀进度条"
+       />
+
+   <Button
+       android:id="@+id/btnTestSmartisanDialog"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="锤子风格的Dialog"
+       />
+
 </LinearLayout>
+</ScrollView>

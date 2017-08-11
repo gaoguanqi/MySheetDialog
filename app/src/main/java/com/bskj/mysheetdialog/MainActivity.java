@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.btnTest1, R.id.btnTest2, R.id.btnTest3, R.id.btnTest4, R.id.btnTest5, R.id.btnTest6, R.id.btnTestPopu,R.id.login_btn})
+    @OnClick({R.id.btnTest1, R.id.btnTest2, R.id.btnTest3, R.id.btnTest4, R.id.btnTest5, R.id.btnTest6, R.id.btnTestPopu,R.id.login_btn,R.id.btnTestProgressBar,R.id.btnTestSmartisanDialog})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnTest1:
@@ -223,7 +223,6 @@ public class MainActivity extends AppCompatActivity {
                 }).show();
                 break;
             case R.id.btnTest5:
-
                 new AlertDialog(ctx).builder()
                         .setMsg("你现在无法接收到新消息提醒。请到系统-设置-通知中开启消息提醒")
                         .setNegativeButton("确定", new View.OnClickListener() {
@@ -248,7 +247,13 @@ public class MainActivity extends AppCompatActivity {
                 Animation loadingAnim = AnimationUtils.loadAnimation(ctx,
                         R.anim.view_rotate);
                 mLoginLoading.startAnimation(loadingAnim);
+                break;
+            case R.id.btnTestProgressBar:
+                startActivity(new Intent(ctx, ProgressBarActivity.class));
+                break;
 
+            case R.id.btnTestSmartisanDialog:
+                startActivity(new Intent(ctx, SmartisanDialogActivity.class));
                 break;
         }
     }

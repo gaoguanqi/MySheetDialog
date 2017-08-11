@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PopuActivity"></activity>
+        <activity android:name=".PopuActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".SmartisanDialogActivity"></activity>
     </application>
 
 </manifest>
